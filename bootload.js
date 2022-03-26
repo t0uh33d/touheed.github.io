@@ -53,7 +53,7 @@ function newLine() {
         setTimeout(() => {
             document.getElementById("display").innerHTML += "<br> [ <p1 style=\"color:green\"> OK </p1> ]   " + bootLog[i%47];
             window.scrollTo(0,document.body.scrollHeight);
-        }, i*10);
+        }, i*500);
        
     }
 }
